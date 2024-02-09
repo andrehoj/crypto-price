@@ -5,6 +5,7 @@ public class Main {
 
     private static final Scanner myScanner = new Scanner(System.in);
     private static boolean isApplicationRunning = true;
+    private static final CryptoApi cryptoApi = new CryptoApi();
 
     public static void main(String[] args) {
         try {
@@ -36,9 +37,9 @@ public class Main {
         }
 
         if (isCoinTypeValid(input)) {
-            System.out.println("... Checking price for: " + input);
-            /// show price
+            String price = cryptoApi.GetCurrentCoinPrice(input);
 
+            System.out.println("The current price of " + input + " is " + price);
         } else {
             System.out.println("That coin type is not supported. Please try again");
             startMenu();
