@@ -1,4 +1,4 @@
-package com.andrehoj.model;
+package com.mycompany.model;
 
 public class CoinData {
   private String id;

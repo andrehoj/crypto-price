@@ -1,9 +1,9 @@
-package com.andrehoj;
+package com.mycompany;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class App {
 
     private static final Scanner SCANNER_IN = new Scanner(System.in);
     private static boolean isApplicationRunning = true;

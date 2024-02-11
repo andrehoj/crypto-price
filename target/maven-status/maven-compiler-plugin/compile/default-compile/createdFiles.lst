@@ -1,0 +1,5 @@
+com\mycompany\CryptoApi.class
+com\mycompany\model\CoinData.class
+com\mycompany\App.class
+com\mycompany\UserRequestsExitException.class
+com\mycompany\model\CoinDataList.class

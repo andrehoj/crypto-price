@@ -1,9 +1,9 @@
-package com.andrehoj;
+package com.mycompany;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.andrehoj.model.CoinData;
-import com.andrehoj.model.CoinDataList;
+import com.mycompany.model.CoinData;
+import com.mycompany.model.CoinDataList;
 
 import java.net.URI;
 import java.net.URISyntaxException;
